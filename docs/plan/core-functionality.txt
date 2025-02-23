@@ -1,0 +1,23 @@
+In this document, I'm going to list all the functionalities of this new software.
+
+Core Functions:
+
+	-	The Raspberry Pi will start listening for regular commands after the command "Hey Raspberry".
+	-	The Raspberry Pi will start listening for system commands only when the user says "Hello Mother Pi".
+	-	The software needs to display an icon to indicate when it is listening, processing, or has successfully executed a command.
+	-	Enhanced User Feedback: The system will provide comprehensive feedback by showing an icon, playing a sound, and displaying a tooltip to indicate its status (listening, processing, or error).
+	-	Open applications from a list of commands. For example: "Open Chromium, please", "Open Terminal, please", or "Open Script Timer."
+	-	The Raspberry Pi will save a history of commands along with timestamps.
+	-	The Raspberry Pi will log analytics on the errors and successes of all commands.
+	-	When opening Chromium, allow the selection of a website from a list of preloaded URLs. For example: "Open Chromium on Amazon Prime, please", "Open Chromium on Cuevana, please", or "Open Chromium on Disney Plus, please."
+	-	Turn the TV on or off by executing a command using CEC specifications. For example: "Turn on TV, please" or "Turn off TV, please."
+	-	Reboot the Raspberry Pi (this is just in case of an emergency). This command will only be recognized when the user calls the Raspberry Pi using the command "Hello Mother Pi".
+
+Future Functions:
+
+	-	Perform a web search using a voice command. For example: "Search for XXXX on BBBB", where XXXX is the search query and BBBB is the search engine (such as ChatGPT or Google).
+	-	Adjust the sound volume up and down. For example: "Volume up, please" or "Volume down, please."
+	-	Set the sound volume to a specific percentage. For example: "Volume at 60 percent, please" or "Volume at 30 percent, please."
+	-	Mute the sound. For example: "Mute sound, please."
+
+All these commands will only work if the user puts the Raspberry Pi into listening mode with the respective command.
